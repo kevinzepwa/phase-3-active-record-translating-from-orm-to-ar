@@ -23,7 +23,7 @@ GEM
     diff-lcs (1.4.4)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    json (1.8.6)
+    json (2.3.0)
     method_source (1.0.0)
     minitest (5.14.4)
     pry (0.14.1)
@@ -43,22 +43,23 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.2)
-    sqlite3 (1.4.2)
+    sqlite3 (1.5.3-x86_64-linux)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     zeitwerk (2.4.2)
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   activerecord (~> 6.1)
   database_cleaner
-  json (~> 1.8, >= 1.8.5)
+  json (~> 2.3, >= 2.3.0)
   pry
   rake
   rspec
-  sqlite3 (~> 1.4)
+  sqlite3 (~> 1.5.3)
 
 BUNDLED WITH
-   2.2.23
+   2.3.25
